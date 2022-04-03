@@ -23,7 +23,7 @@ class Grupo:
             self.listadoAlumnos = lista + [alumno]
 
     def __str__(self):
-        return "Grupo estudiantes: {}".format(self._grupo)
+        return "Grupo de estudiantes: {}".format(self._grupo)
 
     """@ classmethod
     def asignarNombre(cls, nombre="Grado 10"):
